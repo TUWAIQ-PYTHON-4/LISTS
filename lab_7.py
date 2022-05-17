@@ -10,6 +10,14 @@ largest_number = max(new_list)
 print(largest_number)
 
 #Q3: Create an odd numbers list from the elements of a range from 1200 to 2000 with steps of 125, using list comprehension.
+
+# this is list comprehension.
+comp_list = [n for n in range(1200,2000,125) if (n%2) != 0]
+print(comp_list)
+
+#   -------------------------------------
+#   |         another solve             |
+#   -------------------------------------
 odd_number = []
 for elements in range(1200,2000,125):
     if (elements % 2 ) != 0:
