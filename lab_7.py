@@ -1,7 +1,4 @@
-#Create a new list containing several different integers . 
-from operator import ne
-
-
+#Create a new list containing several different integers . from operator import ne
 new_list = [1,2,3,4,5,6,7,8]
 
 #Q1: Write a Python program to sum all the items in the list.
