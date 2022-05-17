@@ -4,12 +4,10 @@ print(sum(lst))
 print(max(lst))
 
 
-def odd_numbers(num1:int,num2:int)->int:
-    return [num for num in range(num1, num2, 125) if num % 2 !=0]
+#def odd_numbers(num1:int,num2:int)->int:
+comp_list= [num for num in range(1200, 2000, 125) if num % 2 !=0]
+print(comp_list)
+#print(odd_numbers(1200,2000))
 
-print(odd_numbers(1200,2000))
-
-
-newlist = []
-newlist.extend(lst)
+newlist=(lst[5:])
 print(newlist)
